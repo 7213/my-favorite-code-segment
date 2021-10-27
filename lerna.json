@@ -1,8 +1,18 @@
 {
   "useWorkspaces": true,
   "npmClient": "yarn",
-  "version": "2.0.0",
   "packages": [
     "packages/**"
-  ]
+  ],
+  "command": {
+    "version": {
+      "conventionalCommits": true,
+      "message": "chore: [skip ci] bump packages"
+    },
+    "publish": {
+      "conventionalCommits": true,
+      "message": "chore: [skip ci] bump packages"
+    }
+  },
+  "version": "0.0.0"
 }
