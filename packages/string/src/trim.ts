@@ -22,7 +22,10 @@ export function isWhiteSpaceSingleLine(ch: number): boolean {
 }
 
 export function isLineBreak(ch: number): boolean {
-
+    return ch === CharacterCodes.lineFeed ||
+        ch === CharacterCodes.carriageReturn ||
+        ch === CharacterCodes.lineSeparator ||
+        ch === CharacterCodes.paragraphSeparator;
 }
 
 export const trimString = !!String.prototype.trim ? ((s: string) => s.trim()) : (s: string) => trimStringEnd(trimStringStart(s));
