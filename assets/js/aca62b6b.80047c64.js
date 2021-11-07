@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[759],{5867:function(e){e.exports=JSON.parse('{"permalink":"/my-favorite-code-segment/docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

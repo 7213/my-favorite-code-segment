@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u5f53\u6280\u672fLeader\u7684\u8fd9\u4e00\u5e74","permalink":"/my-favorite-code-segment/docs/blog/\u5f53\u6280\u672fLeader\u7684\u8fd9\u4e00\u5e74"}]}')}}]);
