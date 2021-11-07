@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0">
     <channel>
         <title>My NOTE Blog</title>
         <link>https://7213.github.io/my-favorite-code-segment/blog</link>
@@ -8,13 +8,10 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://7213.github.io/my-favorite-code-segment/blog/mdx-blog-post</link>
-            <guid>mdx-blog-post</guid>
+            <title><![CDATA[当技术Leader的这一年]]></title>
+            <link>https://7213.github.io/my-favorite-code-segment/blog/当技术Leader的这一年</link>
+            <guid>当技术Leader的这一年</guid>
             <pubDate>Sun, 07 Nov 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
-            <content:encoded><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/">MDX</a>.</p><p>:::tip</p><p>Use the power of React to create interactive blog posts.</p><pre><code class="language-js">&lt;button onClick={() =&gt; alert(&#x27;button clicked!&#x27;)}&gt;Click me!&lt;/button&gt;
-</code></pre><button>Click me!</button><p>:::</p>]]></content:encoded>
         </item>
     </channel>
 </rss>

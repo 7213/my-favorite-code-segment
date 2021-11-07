@@ -8,12 +8,9 @@
     <subtitle>My NOTE Blog</subtitle>
     <icon>https://7213.github.io/my-favorite-code-segment/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[MDX Blog Post]]></title>
-        <id>mdx-blog-post</id>
-        <link href="https://7213.github.io/my-favorite-code-segment/blog/mdx-blog-post"/>
+        <title type="html"><![CDATA[当技术Leader的这一年]]></title>
+        <id>当技术Leader的这一年</id>
+        <link href="https://7213.github.io/my-favorite-code-segment/blog/当技术Leader的这一年"/>
         <updated>2021-11-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
-        <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/">MDX</a>.</p><p>:::tip</p><p>Use the power of React to create interactive blog posts.</p><pre><code class="language-js">&lt;button onClick={() =&gt; alert(&#x27;button clicked!&#x27;)}&gt;Click me!&lt;/button&gt;
-</code></pre><button>Click me!</button><p>:::</p>]]></content>
     </entry>
 </feed>
