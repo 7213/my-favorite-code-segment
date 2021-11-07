@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>My NOTE Blog</title>
+        <title>My Life Blog</title>
         <link>https://7213.github.io/my-favorite-code-segment/blog</link>
-        <description>My NOTE Blog</description>
+        <description>My Life Blog</description>
         <lastBuildDate>Sun, 07 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
