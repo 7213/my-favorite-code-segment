@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://7213.github.io/my-favorite-code-segment/docs/blog</id>
+    <id>https://7213.github.io/my-favorite-code-segment/blog</id>
     <title>My NOTE Blog</title>
     <updated>2021-11-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://7213.github.io/my-favorite-code-segment/docs/blog"/>
+    <link rel="alternate" href="https://7213.github.io/my-favorite-code-segment/blog"/>
     <subtitle>My NOTE Blog</subtitle>
-    <icon>https://7213.github.io/my-favorite-code-segment/docs/img/favicon.ico</icon>
+    <icon>https://7213.github.io/my-favorite-code-segment/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[MDX Blog Post]]></title>
         <id>mdx-blog-post</id>
-        <link href="https://7213.github.io/my-favorite-code-segment/docs/blog/mdx-blog-post"/>
+        <link href="https://7213.github.io/my-favorite-code-segment/blog/mdx-blog-post"/>
         <updated>2021-11-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
         <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/">MDX</a>.</p><p>:::tip</p><p>Use the power of React to create interactive blog posts.</p><pre><code class="language-js">&lt;button onClick={() =&gt; alert(&#x27;button clicked!&#x27;)}&gt;Click me!&lt;/button&gt;
