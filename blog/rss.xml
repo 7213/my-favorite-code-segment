@@ -2,14 +2,14 @@
 <rss version="2.0">
     <channel>
         <title>My NOTE Blog</title>
-        <link>https://7213.github.io/my-favorite-code-segment/blog</link>
+        <link>https://7213.github.io/my-favorite-code-segment/docs/blog</link>
         <description>My NOTE Blog</description>
         <lastBuildDate>Sun, 07 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[当技术Leader的这一年]]></title>
-            <link>https://7213.github.io/my-favorite-code-segment/blog/当技术Leader的这一年</link>
+            <link>https://7213.github.io/my-favorite-code-segment/docs/blog/当技术Leader的这一年</link>
             <guid>当技术Leader的这一年</guid>
             <pubDate>Sun, 07 Nov 2021 00:00:00 GMT</pubDate>
         </item>

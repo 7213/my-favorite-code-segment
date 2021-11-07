@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://7213.github.io/my-favorite-code-segment/blog</id>
+    <id>https://7213.github.io/my-favorite-code-segment/docs/blog</id>
     <title>My NOTE Blog</title>
     <updated>2021-11-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://7213.github.io/my-favorite-code-segment/blog"/>
+    <link rel="alternate" href="https://7213.github.io/my-favorite-code-segment/docs/blog"/>
     <subtitle>My NOTE Blog</subtitle>
-    <icon>https://7213.github.io/my-favorite-code-segment/img/favicon.ico</icon>
+    <icon>https://7213.github.io/my-favorite-code-segment/docs/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[当技术Leader的这一年]]></title>
         <id>当技术Leader的这一年</id>
-        <link href="https://7213.github.io/my-favorite-code-segment/blog/当技术Leader的这一年"/>
+        <link href="https://7213.github.io/my-favorite-code-segment/docs/blog/当技术Leader的这一年"/>
         <updated>2021-11-07T00:00:00.000Z</updated>
     </entry>
 </feed>
