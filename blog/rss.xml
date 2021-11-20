@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>My Life Blog</title>
         <link>https://7213.github.io/my-favorite-code-segment/blog</link>
@@ -8,10 +8,12 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[当技术Leader的这一年]]></title>
-            <link>https://7213.github.io/my-favorite-code-segment/blog/当技术Leader的这一年</link>
-            <guid>当技术Leader的这一年</guid>
+            <title><![CDATA[当一线技术管理这一年]]></title>
+            <link>https://7213.github.io/my-favorite-code-segment/blog/当一线技术管理这一年</link>
+            <guid>当一线技术管理这一年</guid>
             <pubDate>Sun, 07 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[成就他人]]></description>
+            <content:encoded><![CDATA[<h4>成就他人</h4><h4>能接受自己的平庸</h4><h4>避免理想主义</h4>]]></content:encoded>
         </item>
     </channel>
 </rss>
