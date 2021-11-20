@@ -1,37 +1,35 @@
-import React from 'react';
-import clsx from 'clsx';
+import React, {useEffect, useRef} from 'react';
 import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import HomepageFeatures from '../components/HomepageFeatures';
+import BrowserOnly from '@docusaurus/BrowserOnly';
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            这是一间时间屋，我留下这些...
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
+export function Air(): JSX.Element {
+    const {siteConfig} = useDocusaurusContext();
+    const path = `${siteConfig.baseUrl}/img/air.png`;
+    return (
+            <img
+                onClick={()=>{}}
+                src={path}
+                className={styles.air}
+            />
+    )
+
 }
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
+  let StarBG = null;
+  if (ExecutionEnvironment.canUseDOM) {
+      StarBG = require("../components/BG.tsx").StarBG;
+  }
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-    </Layout>
+          <Layout title={`Hello from ${siteConfig.title}`}>
+              <BrowserOnly>
+                  {()=> <StarBG />}
+              </BrowserOnly>
+              <Air />
+          </Layout>
   );
 }
