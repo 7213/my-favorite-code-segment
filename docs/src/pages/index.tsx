@@ -4,10 +4,13 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
+import {useLocalBootstrap} from "../commom/env";
+
+import Link from '@docusaurus/Link';
 
 export function Air(): JSX.Element {
     const {siteConfig} = useDocusaurusContext();
-    const path = `${siteConfig.baseUrl}/img/air.png`;
+    const path = useLocalBootstrap() ? '/img/air.png' : `${siteConfig.baseUrl}img/air.png` ;
     return (
             <img
                 onClick={()=>{}}
@@ -29,7 +32,9 @@ export default function Home(): JSX.Element {
               <BrowserOnly>
                   {()=> <StarBG />}
               </BrowserOnly>
-              <Air />
+          <Link to="/blog">
+            <Air />
+          </Link>
           </Layout>
   );
 }

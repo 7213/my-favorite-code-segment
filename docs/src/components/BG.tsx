@@ -2,15 +2,15 @@ import React, {useEffect, useRef} from 'react';
 import * as PIXI from 'pixi.js'
 import useIsBrowser from '@docusaurus/useIsBrowser';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Link from '@docusaurus/Link';
+import {useLocalBootstrap} from "../commom/env";
 
-function genStarBG(isBrowser: boolean, siteConfig) {
+function genStarBG(isBrowser: boolean, siteConfig, starPath) {
     if (!isBrowser) return;
     const app = new PIXI.Application({
         view: document.getElementById('bg') as HTMLCanvasElement
     });
     // Get the texture for rope.
-    const starTexture = PIXI.Texture.from(`${siteConfig.baseUrl}img/star.png`);
+    const starTexture = PIXI.Texture.from(starPath);
 
     const starAmount = 1000;
     let cameraZ = -100;
@@ -19,10 +19,11 @@ function genStarBG(isBrowser: boolean, siteConfig) {
     let speed = 0;
     const starStretch = 5;
     const starBaseSize = 0.05;
+    const zIndex = 2000;
 
 
     function randomizeStar(star, initial?) {
-        star.z = initial ? Math.random() * 2000 : cameraZ + Math.random() * 1000 + 2000;
+        star.z = initial ? Math.random() * zIndex : cameraZ + Math.random() * 1000 + zIndex;
 
         // Calculate star positions with radial random coordinate so no star hits the camera.
         const deg = Math.random() * Math.PI * 2;
@@ -57,16 +58,12 @@ function genStarBG(isBrowser: boolean, siteConfig) {
             star.sprite.x = star.x * (fov / z) * app.renderer.screen.width + app.renderer.screen.width / 16;
             star.sprite.y = star.y * (fov / z) * 30 + app.renderer.screen.height / 2;
 
-            // Calculate star scale & rotation.
             const dxCenter = star.sprite.x - app.renderer.screen.width / 2;
             const dyCenter = star.sprite.y - app.renderer.screen.height / 2;
             const distanceCenter = Math.sqrt(dxCenter * dxCenter + dyCenter * dyCenter);
-            const distanceScale = Math.max(0, (2000 - z) / 2000);
+            const distanceScale = Math.max(0, (zIndex - z) / zIndex);
             star.sprite.scale.x = distanceScale * starBaseSize;
-            // Star is looking towards center so that y axis is towards center.
-            // Scale the star depending on how fast we are moving, what the stretchfactor is and depending on how far away it is from the center.
             star.sprite.scale.y = distanceScale * starBaseSize + distanceScale * speed * starStretch * distanceCenter / app.renderer.screen.width;
-            // star.sprite.rotation = Math.atan2(dyCenter, dxCenter) + Math.PI / 2;
         }
     });
 }
@@ -74,14 +71,13 @@ function genStarBG(isBrowser: boolean, siteConfig) {
 export function StarBG(): JSX.Element {
     const isBrowser = useIsBrowser();
     const {siteConfig} = useDocusaurusContext();
+    const starPath = useLocalBootstrap() ? '/img/star.png' : `${siteConfig.baseUrl}img/star.png`;
 
     useEffect(()=>{
-        genStarBG(isBrowser, siteConfig);
+        genStarBG(isBrowser, siteConfig, starPath);
     }, []);
 
     return isBrowser ?
-        <Link to="/blog">
-            <canvas id="bg" style={{width: "100%", height: "100%", position: 'absolute', top: "0px"}} />
-        </Link> :
-        null
+            <canvas id="bg" style={{width: "100%", height: "100%", position: 'absolute', top: "0px"}} /> :
+            null
 }
