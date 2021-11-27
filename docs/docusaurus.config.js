@@ -14,7 +14,6 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: '7213', // Usually your GitHub org/user name.
   projectName: 'my-favorite-code-segment', // Usually your repo name.
-
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -33,7 +32,7 @@ const config = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
-        },
+        }
       }),
     ],
   ],
@@ -42,13 +41,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: '7213的小窝',
+        title: '7213的太空历险',
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: '技术随手记',
+            label: '技术探险',
           },
           {to: '/blog', label: '杂谈生活', position: 'left'}
         ],

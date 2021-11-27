@@ -63,7 +63,7 @@ function genStarBG(isBrowser: boolean, siteConfig, starPath) {
             const distanceCenter = Math.sqrt(dxCenter * dxCenter + dyCenter * dyCenter);
             const distanceScale = Math.max(0, (zIndex - z) / zIndex);
             star.sprite.scale.x = distanceScale * starBaseSize;
-            star.sprite.scale.y = distanceScale * starBaseSize + distanceScale * speed * starStretch * distanceCenter / app.renderer.screen.width;
+            star.sprite.scale.y = distanceScale * starBaseSize;
         }
     });
 }
