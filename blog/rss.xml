@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>My Life Blog</title>
-        <link>http://7113.live/blog</link>
+        <link>https://7213.github.io/blog</link>
         <description>My Life Blog</description>
         <lastBuildDate>Sun, 07 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[当一线技术管理这一年]]></title>
-            <link>http://7113.live/blog/当一线技术管理这一年</link>
+            <link>https://7213.github.io/blog/当一线技术管理这一年</link>
             <guid>当一线技术管理这一年</guid>
             <pubDate>Sun, 07 Nov 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[成就他人]]></description>
