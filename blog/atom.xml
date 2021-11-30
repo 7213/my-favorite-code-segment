@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://7213.github.io/my-favorite-code-segment/blog</id>
+    <id>http://7113.live/blog</id>
     <title>My Life Blog</title>
     <updated>2021-11-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://7213.github.io/my-favorite-code-segment/blog"/>
+    <link rel="alternate" href="http://7113.live/blog"/>
     <subtitle>My Life Blog</subtitle>
-    <icon>https://7213.github.io/my-favorite-code-segment/img/favicon.ico</icon>
+    <icon>http://7113.live/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[当一线技术管理这一年]]></title>
         <id>当一线技术管理这一年</id>
-        <link href="https://7213.github.io/my-favorite-code-segment/blog/当一线技术管理这一年"/>
+        <link href="http://7113.live/blog/当一线技术管理这一年"/>
         <updated>2021-11-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[成就他人]]></summary>
         <content type="html"><![CDATA[<h4>成就他人</h4><h4>成就他人的前提，是能和他人共情</h4><h4>能接受自己的平庸，要学会倾听</h4><h4>避免理想主义</h4>]]></content>
