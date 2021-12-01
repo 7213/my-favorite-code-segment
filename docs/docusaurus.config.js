@@ -8,10 +8,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'My Life',
   url: 'https://7213.github.io',
-  baseUrl: '/my-favorite-code-segment/',
+  baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/air.ico',
   organizationName: '7213', // Usually your GitHub org/user name.
   projectName: 'my-favorite-code-segment', // Usually your repo name.
   presets: [
@@ -41,7 +41,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: '7213的太空历险',
+        title: '7113的太空历险',
         items: [
           {
             type: 'doc',
