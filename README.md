@@ -1,2 +1,2 @@
 # my-favorite-code-segment
-收集&amp;创造有用的JS/TS代码片段
+关注TS、Rust的学习知识
