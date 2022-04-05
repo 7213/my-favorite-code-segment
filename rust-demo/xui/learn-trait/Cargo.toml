@@ -1,0 +1,24 @@
+[package]
+name = "learn-trait"
+version = "0.1.0"
+include = [
+  "**/*.rs",
+  "Cargo.toml",
+]
+
+[package.metadata.docs.rs]
+all-features = true
+
+[lib]
+
+
+[features]
+default = []
+
+# Enable additional checks if debug assertions are enabled (debug builds).
+extra_debug_asserts = []
+# Always enable additional checks.
+extra_asserts = []
+
+
+[dependencies]

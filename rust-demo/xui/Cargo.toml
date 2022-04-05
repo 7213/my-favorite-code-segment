@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+    "xmath"
+]
+exclude = [
+    "lean-trait"
+]
+
+
+[profile.dev]
+split-debuginfo = "unpacked"
