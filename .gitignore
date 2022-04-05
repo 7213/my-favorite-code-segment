@@ -227,3 +227,6 @@ tmp
 
 # test
 /__snapshots__/
+
+# rust target
+target/
