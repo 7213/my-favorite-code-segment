@@ -27,12 +27,23 @@ export default function Home(): JSX.Element {
   if (ExecutionEnvironment.canUseDOM) {
       StarBG = require("../components/BG.tsx").StarBG;
   }
+
+  useEffect(()=>{
+      const timer = setTimeout(()=>{
+        location.href = '/docs/intro/';
+      }, 2000)
+
+      return function () {
+          timer && clearTimeout(timer);
+      }
+  }, []);
+
   return (
           <Layout title={`Hello from ${siteConfig.title}`}>
               <BrowserOnly>
                   {()=> <StarBG />}
               </BrowserOnly>
-          <Link to="/blog">
+          <Link to="/docs/intro/">
             <Air />
           </Link>
           </Layout>
