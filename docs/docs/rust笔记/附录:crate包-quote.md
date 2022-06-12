@@ -52,19 +52,19 @@ pub fn hello_macro(input: TokenStream) -> TokenStream {
     // 对应步骤1.将TokenStream转换成AST
     let ast = parse_macro_input!(input as DeriveInput);
 
-    // 对应步骤2.从AST Node上提取信息
+    // 对应步骤2.从AST Node上提取信息，获取结构体的标识符，这里是MySelf
     let ident = ast.ident;
 
-    // Build the output, possibly using quasi-quotation
+    // 对应步骤3.扩展源码行为
     let expanded = quote! {
         trait Hello {
             fn say_hello(&self) {
                 println!("{}", "hello_word2")
             }
         }
+        // 为结构体#ident实现Hello tarit
         impl Hello for #ident {};
     };
-    // Convert into a token stream and return it
     expanded.into()
 }
 ```
