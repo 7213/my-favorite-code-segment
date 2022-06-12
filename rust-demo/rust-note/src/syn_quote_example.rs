@@ -1,5 +1,5 @@
 extern crate custom_derive;
-use custom_derive::hello_macro;
+use custom_derive::hello_macroß;
 
 #[derive(hello_macro)]
 pub(crate) struct MySelf {
@@ -15,6 +15,6 @@ mod tests {
         let me = MySelf {
             name: String::from("sz"),
             age: 18,
-        };
+  ß      };
     }
 }

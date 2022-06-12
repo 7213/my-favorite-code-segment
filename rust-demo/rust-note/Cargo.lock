@@ -33,8 +33,6 @@ name = "rust-note"
 version = "0.1.0"
 dependencies = [
  "custom-derive",
- "quote",
- "syn",
 ]
 
 [[package]]
