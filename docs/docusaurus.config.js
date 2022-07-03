@@ -66,10 +66,6 @@ const config = {
           {to: '/blog', label: '杂谈生活', position: 'left'}
         ],
       },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
     }),
 };
 
