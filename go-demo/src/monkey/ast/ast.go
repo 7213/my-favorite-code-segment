@@ -169,10 +169,10 @@ func (b *Boolean) TokenLiteral() string { return b.Token.Literal }
 func (b *Boolean) String() string { return b.Token.Literal }
 
 type IfExpression struct {
-	Token        token.Token
-	Condition    Expression
-	Consequence  *BlockStatement
-	Alternative  *BlockStatement
+	Token       token.Token 
+	Condition   Expression
+	Consequence *BlockStatement
+	Alternative *BlockStatement
 }
 
 func (ie *IfExpression) expresstionNode() {}

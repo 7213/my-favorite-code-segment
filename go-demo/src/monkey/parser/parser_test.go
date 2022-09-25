@@ -475,17 +475,17 @@ func TestIfExpression(t *testing.T) {
 	input := `if (x < y) { x }`
 
 	l := lexer.New(input)
-	p := New(l	)
+	p := New(l)
 	program := p.ParseProgram()
 	checkParserErrors(t, p)
 
 	if len(program.Statements) != 1 {
-		t.Fatalf("program.Statements does not cntain %d statements. got=%d\n", 1, len(program.Statements))
+		t.Fatalf("program.Statements does not cotain %d statements. got=%d\n", 1, len(program.Statements))
 	}
 
 	stmt, ok := program.Statements[0].(*ast.ExpressionStatement)
 	if !ok {
-		t.Fatalf("program.Statements[0] is not ast.ExpressionStatement. got=%T", program.Statement[0])
+		t.Fatalf("program.Statements[0] is not ast.ExpressionStatement. got=%T", program.Statements[0])
 	}
 
 	exp, ok := stmt.Expression.(*ast.IfExpression)
@@ -511,6 +511,6 @@ func TestIfExpression(t *testing.T) {
 	}
 
 	if exp.Alternative != nil {
-		t.Errorf("exp.Alternaive.Statements was not nul. got=%+v", exp.Alternaive)
+		t.Errorf("exp.Alternaive.Statements was not nul. got=%+v", exp.Alternative)
 	}
 }
