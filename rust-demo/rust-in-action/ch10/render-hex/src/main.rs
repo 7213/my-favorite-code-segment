@@ -126,6 +126,7 @@ fn parse(input: &str) -> Vec<Operation> {
     steps
 }
 
+fn convert(operations: &Vec<Operation>) -> 
 
 
 fn main() {
