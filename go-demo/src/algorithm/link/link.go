@@ -1,7 +1,7 @@
 package link
 
 type ListNode struct {
-    Val  int64
+	Val  int64
 	Next *ListNode
 }
 
