@@ -2,11 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://7213.github.io/blog</id>
     <title>My Life Blog</title>
-    <updated>2021-11-07T00:00:00.000Z</updated>
+    <updated>2022-11-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://7213.github.io/blog"/>
     <subtitle>My Life Blog</subtitle>
     <icon>https://7213.github.io/img/air.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[一个一线管理者聊绩效，是聊什么？]]></title>
+        <id>聊绩效是聊什么</id>
+        <link href="https://7213.github.io/blog/聊绩效是聊什么"/>
+        <updated>2022-11-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[抛开管理者培训哪些，从我一个一线技术 TL 的视角上看，聊一聊这些年对于"绩效面谈"的一些感受：当我去聊绩效时，聊的是什么？]]></summary>
+        <content type="html"><![CDATA[<p>抛开管理者培训哪些，从我一个一线技术 TL 的视角上看，聊一聊这些年对于&quot;绩效面谈&quot;的一些感受：当我去聊绩效时，聊的是什么？</p><p>首先&quot;绩效面谈&quot;是工作过程累计到一个节点时后一次的&quot;结果传达&quot;，&quot;绩效面聊&quot;应该是贯穿在工作碎片始终的，如果没有&quot;过程沟通&quot;，那么&quot;绩效面聊&quot;没有任何意义，也终将会在某一时间点某一人上炸出管理事故。</p><p>首先，如何避免一次坏的绩效沟通 ？从几年的反向案例去看，坏的绩效沟通往往都会有以下几个特点：</p><ul><li>对于预期高的同学：管理者&quot;以避免热帖&quot;为出发点去沟通，通过盘点证据、全面否定的沟通方式让同学&quot;接受&quot;最终结果</li><li>对于好绩效的同学：蜻蜓点水般的沟通</li><li>对于一般的同学：在未深入挖掘对方内驱的时候，通过&quot;粗暴&quot;的手段进行激励（比如业绩达成后的许诺等）</li></ul><p>其实以上都指向一点，管理者更多是以满足自己某种目上（向上）出发，把同学当成资源，在最体现人性的修罗场，却忽略了对方的情感需要，把复杂的事情简单化。</p><p>那么，什么是一次有效的绩效沟通？从公司的角度，任何的动作都是为了促进组织的进化，&quot;绩效沟通&quot;也不例外。</p><p>我理解愿景、激励在平时 TL 的以身作则中去传达出来，&quot;好&quot;与&quot;坏&quot;的绩效场子是为了找到组织现在、未来需要的人，而非通过绩效期望去改变一个人。    </p><ul><li>业务失意时：缺乏有效的分配资源时，过往长期&quot;好绩效&quot;的同学是否还能认同组织愿景，同时思考是否是只是顺风局，事成人的结果。未来需要什么样的破局者，要传达下一次要什么。</li><li>业务顺风时：是否保持组织的平衡，在不改变大局面的同时去寻找平衡，让同学满意和业务危机意识共存。</li></ul><p>最后也说一说我并不认同的管理动作 ，通过在过程中不停的 &quot;降预期&quot; 方式，让最后拿到好结果的同学&quot;惊喜&quot;，让坏结果的同学也&quot;顺应接受&quot;。  </p><p>也许这个 Leader 短时间看起来管理手段很强，但长此以往，这个组织最后更多的是一些&quot;顺民&quot;，&quot;听话的聪明者&quot;更容易拿到好结果，组织将失去该有的弹性和创造力，走向平庸。</p><p>同时作为一线管理者自己的一些反思：</p><ul><li>1.也许已经有很多的&quot;管理过程&quot;，但有没有去体会同学的&quot;求救&quot;信号，过程中是否换位思考，是否你真的给过资源或帮助</li><li>2.是否从让&quot;组织更好&quot;的角度去决定，还是你好我好大家好，当然这里是否有承担结果的勇气，很大程度上也决定于 TL 的 TL 是不是也有这层兜底的勇气</li></ul>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[当一线技术管理这一年]]></title>
         <id>当一线技术管理这一年</id>
