@@ -1,0 +1,20 @@
+[package]
+name = "debug-swc"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+either = { version = "1.4" }
+enum_kind = { version = "0.2.1"}
+lexical = { version = "6.1.0", features = ["power-of-two"] }
+num-bigint = "0.4"
+serde = { version = "1", features = ["derive"] }
+smallvec = "1.8.0"
+swc_atoms = { version = "0.5.4"}
+swc_common = { version = "0.31.6"}
+swc_ecma_ast = { version = "0.103.6"}
+swc_ecma_visit = { version = "0.89.6", optional = true }
+swc_ecma_parser = { version = "0.133.13"}
+tracing = "0.1.32"
+typed-arena = "2.0.1"

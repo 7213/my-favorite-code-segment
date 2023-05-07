@@ -1,0 +1,48 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 966px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes run{
+    0%{transform: translate3d(0,0,11px)}
+    10%{transform: translate3d(-4px, -3px, 11px)}
+    20%{transform: translate3d(-8px,-6px, 11px)}
+    30%{transform: translate3d(-12px, -9px,200px)}
+    40%{transform: translate3d(-16px, -12px,200px)}
+    50%{transform: translate3d(-20px, -14px,200px)}
+    60%{transform: translate3d(-16px, -12px,0)}
+    70%{transform: translate3d(-12px,-9px,0)}
+    80%{transform: translate3d(-8px,-6px,0)}
+    90%{transform: translate3d(-4px,-3px,0)}
+    100%{transform: translate3d(0px,0,0)}
+}
+
+
+.air {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    z-index: 999;
+    animation: run 1s ease infinite;
+}
